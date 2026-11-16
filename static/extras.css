@@ -98,3 +98,14 @@ body.public{margin:0}.public-header{display:flex;justify-content:space-between;a
 }
 @media(max-width:420px){.series-grid{grid-template-columns:minmax(0,1fr)}}
 @media(prefers-reduced-motion:reduce){.chart-line{stroke-dasharray:none}}
+/* Briefing generale dell'AI e pagina pubblica a sezioni */
+.general-briefing{margin:26px 0 4px;padding:22px 24px;background:#101a25;border:1px solid var(--line-soft);border-left:3px solid var(--accent);border-radius:9px;max-width:1050px}
+.general-briefing h4{display:flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.4px;text-transform:uppercase;color:var(--accent);margin:0 0 14px}
+.general-briefing h4 .icon{width:15px;height:15px}
+.general-briefing p{font-size:14px;line-height:1.85;color:#d3e0eb;margin:0 0 14px}
+.general-briefing p:last-child{margin-bottom:0}
+.general-briefing p strong{display:block;font-size:13px;color:var(--text);margin-bottom:4px}
+.briefing-preview .analysis-headline{font-size:16px;margin-bottom:14px;padding-bottom:14px}
+.stale-notice{background:#33291a;border-color:#6b5428}.stale-notice>.icon{color:#e0b14a}
+.public-footer{margin-top:34px}
+@media(max-width:480px){.general-briefing{padding:17px 16px}.general-briefing p{font-size:13px}}
